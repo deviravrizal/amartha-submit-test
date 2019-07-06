@@ -1,0 +1,43 @@
+Test Case for https://www.saucedemo.com
+
+1. Login
+//Positive Test Case
+- (Function) Melakukan mengisi username dan password dengan data yang telah terdaftar
+- (Function) Klik button 'Login' untuk mengakses halaman
+
+//Negative Test Case
+- {Function) Melakukan mengisi username dan password dengan data yang belum terdaftar
+
+2. Dashboard
+//Positive Test Case
+- (UI) Melihat item produk yang ditampilkan yang memiliki informasi seperti Nama Produk, Deskripsi Produk, Harga, dan Gambar
+- (Function) Menambahkan item produk dengan klik button 'Add to Cart'
+- (Function) Melihat item produk yang sudah dipilih dengan klik icon keranjang
+- (Function) Melakukan sorting Ascending/Descending dan Harga
+- (UI) Melihat counter di icon keranjang berdasarkan item yang user tambahkan
+
+3. Cart
+//Positive Test Case
+- (UI) Melihat item yang sudah user tambahkan beserta informasi quantity
+- (Function) Dapat menghapus item yang ditambahkan dengan klik button 'Remove'
+- (Function) Melanjutkan belanja dengan klik button 'Continue Shopping'
+- (Function) Melanjutkan transaksi dengan klik button 'Checkout' 
+
+4. Information
+//Positive Test Case
+- (Function) Dapat mengisi informasi nama depan di kolom 'First Name'
+- (Function) Dapat mengisi informasi nama belakang di kolom 'Last Name'
+- (Function) Dapat mengisi informasi kode pos di kolom 'Zip/Postal Code'
+- (Function) Membatalkan transaksi dengan klik button 'Cancel'
+- (Function) Melanjutkan transaksi dengan klik button 'Continue'
+
+//Negative Test Case
+- (Function) Dapat mengisi inputan number di kolom 'First Name'
+- (Function) Dapat mengisi inputan number di kolom 'Last Name'
+- (Function) Dapat mengisi inputan alphabet di kolom 'Zip/Postal Code'
+
+3. Cart
+//Positive Test Case
+- (UI) Melihat item yang sudah user tambahkan beserta informasi pembayaran dan rincian pembayaran
+- (Function) Membatalkan transaksi dengan klik button 'Cancel'
+- (Function) Menyelesaikan transaksi dengan klik button 'Finish'
